@@ -1,2 +1,15 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ignores Shader and Material files in GitHub's language stats
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+*.mat linguist-detectable=false
+*.compute linguist-detectable=false
+# Ignore C, C++, CMake, and HLSL in language stats
+*.c linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.hpp linguist-detectable=false
+*.cmake linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.hlsl linguist-detectable=false
